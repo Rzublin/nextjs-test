@@ -5,7 +5,7 @@ import GlobalStyles from "../components/GlobalStyles/GlobalStyles";
 
 const theme = {
   colors: {
-    primary: "#ff0000",
+    primary: "#efefef",
   },
 };
 

@@ -1,5 +1,11 @@
+import styled from "@emotion/styled";
+
 const Footer = () => {
-  return <h3>Footer</h3>;
+  return <FooterStyled>Footer</FooterStyled>;
 };
+
+const FooterStyled = styled.footer`
+  background: ${(props) => props.theme.colors.primary};
+`;
 
 export default Footer;
